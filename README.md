@@ -5,7 +5,7 @@ My interests lie in AI, simulation, and automation, where I focus on using data-
 
 🧠 Technologies & Tools
 
-<!-- Skills and Tools section inspired by the provided image -->
+<!-- Skills and Tools -->
 ## 🚀 Skills and Tools
 
 <hr />
@@ -13,22 +13,34 @@ My interests lie in AI, simulation, and automation, where I focus on using data-
 <p align="center"><strong>🛠️ Tools I've Used</strong></p>
 
 <p align="center">
-  
+  <!-- Languages -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="48" height="48" style="margin:6px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="48" height="48" style="margin:6px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB" title="MATLAB / Simulink" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="48" height="48" style="margin:6px"/>
+
+  <!-- Frameworks & Libraries -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn" title="Scikit-learn" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/fastapi.svg" alt="FastAPI" title="FastAPI" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-plain.svg" alt="Keras" title="Keras" width="48" height="48" style="margin:6px"/>
+
+  <!-- Simulation & Modeling -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB/Simulink" title="MATLAB / Simulink" width="48" height="48" style="margin:6px"/>
+
+  <!-- Other Tools -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" title="VS Code" width="48" height="48" style="margin:6px"/>
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/labview.svg" alt="LabVIEW" title="LabVIEW" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" title="Pandas" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy" width="48" height="48" style="margin:6px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="48" height="48" style="margin:6px"/>
 </p>
 
-<!-- Fallback textual list for accessibility / plain view -->
-- Languages: Python, JavaScript, MATLAB, HTML, CSS, Java
-- Frameworks & Libraries: TensorFlow, PyTorch, Scikit-learn, FastAPI, React, Keras, XGBoost
-- Simulation & Modeling: MATLAB/Simulink, Custom Simulation Models
-- Other Tools: Git, VS Code, IntelliJ IDEA, Pandas, NumPy, Linux
+
 
 ## 📊 GitHub Stats
 
