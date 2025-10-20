@@ -1,14 +1,32 @@
-## Hi there 👋
+<!-- 🌟 Animated Greeting -->
+<h1 align="center">
+  Hi there 👋
+</h1>
 
-Welcome to my GitHub profile! I'm a passionate Computer Science graduate and current Master’s student in Artificial Intelligence at Oslo Metropolitan University (OsloMet).
-My interests lie in AI, simulation, and automation, where I focus on using data-driven methods to design efficient, intelligent systems.
+<p align="center">
+  <em>
+    Computer Science Graduate & Master's Student in Artificial Intelligence at 
+    <strong>Oslo Metropolitan University (OsloMet)</strong><br/>
+    Passionate about AI, simulation, and automation — using data-driven methods to design efficient, intelligent systems.
+  </em>
+</p>
 
-🧠 Technologies & Tools
+---
 
-<!-- Skills and Tools -->
-## 🚀 Skills and Tools
+<!-- 🌈 Animated Divider -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+</p>
 
-<hr />
+---
+
+## 🧠 Technologies & Tools
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&width=435&lines=💡+AI+%26+Machine+Learning;🧩+Simulation+%26+Automation;⚙️+Full-Stack+Development;🚀+Continuous+Innovation" alt="Typing SVG" />
+</p>
+
+<hr/>
 
 <p align="center"><strong>🛠️ Tools I've Used</strong></p>
 
@@ -19,7 +37,7 @@ My interests lie in AI, simulation, and automation, where I focus on using data-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB" title="MATLAB / Simulink" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="48" height="48" style="margin:6px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" title="typescript" width="48" height="48" style="margin:6px"/>  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="48" height="48" style="margin:6px"/>  
 
   <!-- Frameworks & Libraries -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow" width="48" height="48" style="margin:6px"/>
@@ -28,9 +46,6 @@ My interests lie in AI, simulation, and automation, where I focus on using data-
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/fastapi.svg" alt="FastAPI" title="FastAPI" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" width="48" height="48" style="margin:6px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-plain.svg" alt="Keras" title="Keras" width="48" height="48" style="margin:6px"/>
-
-  <!-- Simulation & Modeling -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB/Simulink" title="MATLAB / Simulink" width="48" height="48" style="margin:6px"/>
 
   <!-- Other Tools -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48" style="margin:6px"/>
@@ -41,7 +56,7 @@ My interests lie in AI, simulation, and automation, where I focus on using data-
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="48" height="48" style="margin:6px"/>
 </p>
 
-
+---
 
 ## 📊 GitHub Stats
 
@@ -53,3 +68,14 @@ My interests lie in AI, simulation, and automation, where I focus on using data-
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rabrie10&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
+
+---
+
+<!-- 🌀 Animated Footer -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=800&color=00FFA6&width=435&lines=Thanks+for+visiting!+🌍;Let's+connect+and+build+something+amazing+🚀" alt="Typing SVG" />
+</p>
