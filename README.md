@@ -71,18 +71,15 @@
 
 ---
 
-<!-- 🌟 Informative Animated Footer -->
+<!-- 🌍 Dynamic Footer -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00FFA6&center=true&vCenter=true&width=600&lines=💻+Currently+working+on:+AI-driven+simulation+and+automation;🎓+Master's+in+Artificial+Intelligence+at+OsloMet;🚀+Exploring+deep+learning+and+real-time+control+systems;🤝+Let's+connect+and+build+something+innovative!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=00F5A0&center=true&vCenter=true&width=600&lines=🚀+Exploring+AI-driven+Automation;🧩+Integrating+Simulation+and+Control;📚+Always+Learning+Something+New!" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/rabrie10"><img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> • 
+  <a href="mailto:youremail@example.com">Email</a> • 
+  <a href="https://github.com/rabrie10">GitHub</a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
 
