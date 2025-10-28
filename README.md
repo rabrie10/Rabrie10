@@ -75,7 +75,7 @@ h<!-- 🌟 Animated Greeting -->
 
 <p align="center">
   <a href="https://www.linkedin.com/in/robel-ghebremedhin-57669b1a1/">LinkedIn</a> • 
-  <a href="mailto:youremail@example.com">Email</a> • 
+  <a href="mailto:weldemichaelr@gmail.com">Email</a> • 
   <a href="https://github.com/rabrie10">GitHub</a>
 </p>
 
