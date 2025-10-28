@@ -1,4 +1,4 @@
-<!-- 🌟 Animated Greeting -->
+h<!-- 🌟 Animated Greeting -->
 <h1 align="center">
   Hi there 👋
 </h1>
@@ -74,7 +74,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> • 
+  <a href="https://www.linkedin.com/in/robel-ghebremedhin-57669b1a1/">LinkedIn</a> • 
   <a href="mailto:youremail@example.com">Email</a> • 
   <a href="https://github.com/rabrie10">GitHub</a>
 </p>
