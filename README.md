@@ -54,17 +54,26 @@ h<!-- 🌟 Animated Greeting -->
 
 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=radical&hide_border=true&count_private=true&cache_seconds=3600" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=radical&hide_border=true&cache_seconds=3600" alt="Top Languages" height="170" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=radical&hide_border=true&count_private=true&cache_seconds=1800&v=2" 
+    alt="GitHub Stats" 
+    height="170" 
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=radical&hide_border=true&cache_seconds=1800&v=2" 
+    alt="Top Languages" 
+    height="170" 
+  />
 </div>
 
 <div align="center">
   <img 
-    src="https://github-readme-streak-stats-eight.vercel.app/?user=rabrie10&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&v=2" 
+    src="https://github-readme-streak-stats-eight.vercel.app/?user=rabrie10&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&cache_seconds=1800&v=2" 
     alt="GitHub Streak" 
     height="170" 
   />
 </div>
+
 
 
 
