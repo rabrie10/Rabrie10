@@ -1,4 +1,4 @@
-h<!-- 🌟 Animated Greeting -->
+<!-- 🌟 Animated Greeting -->
 <h1 align="center">
   Hi there 👋
 </h1>
