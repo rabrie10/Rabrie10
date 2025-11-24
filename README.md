@@ -77,7 +77,7 @@
 
 
 
-<!-- 🌍 This is important -->
+<!-- 🌍  -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=00F5A0&center=true&vCenter=true&width=600&lines=🚀+Exploring+AI-driven+Automation;🧩+Integrating+Simulation+and+Control;📚+Always+Learning+Something+New!" alt="Typing SVG" />
 </p>
