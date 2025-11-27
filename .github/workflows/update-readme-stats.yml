@@ -1,0 +1,49 @@
+name: Update README Stats Images
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets/readme-stats
+
+      - name: Download stats images
+        run: |
+          # Download GitHub Stats
+          curl -f -L -o assets/readme-stats/stats.png \
+            "https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=radical&hide_border=true&count_private=true"
+          
+          # Download Top Languages
+          curl -f -L -o assets/readme-stats/top-langs.png \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=radical&hide_border=true"
+          
+          # Download Streak Stats
+          curl -f -L -o assets/readme-stats/streak.png \
+            "https://github-readme-streak-stats-eight.vercel.app/?user=rabrie10&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add assets/readme-stats/
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update README stats images"
+            git push
+          fi
