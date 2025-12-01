@@ -55,12 +55,12 @@
 📊 GitHub Stats
 <div align="center">
   <!-- Local cached images (updated by workflow) -->
-  <img src="./assets/readme-stats/stats.png" alt="GitHub Stats" height="170" />
-  <img src="./assets/readme-stats/top-langs.png" alt="Top Languages" height="170" />
+  <img src="./assets/readme-stats/stats.svg" alt="GitHub Stats" height="170" />
+  <img src="./assets/readme-stats/top-langs.svg" alt="Top Languages" height="170" />
 </div>
 
 <div align="center">
-  <img src="./assets/readme-stats/streak.png" alt="GitHub Streak" height="170" />
+  <img src="./assets/readme-stats/streak.svg" alt="GitHub Streak" height="170" />
 </div>
 
 <!-- Remote fallbacks (kept in README so if local images are missing the remote images are still available) -->
