@@ -28,13 +28,13 @@ jobs:
             local max_attempts=5
             local delay=10
             
-            for attempt in $(seq 1 $max_attempts); do
+            for ((attempt=1; attempt<=max_attempts; attempt++)); do
               echo "Downloading $output (attempt $attempt of $max_attempts)..."
               if curl -f -L --retry 3 --retry-delay 5 -o "$output" "$url"; then
                 echo "Successfully downloaded $output"
                 return 0
               fi
-              if [ $attempt -lt $max_attempts ]; then
+              if [ "$attempt" -lt "$max_attempts" ]; then
                 echo "Download failed, waiting ${delay}s before retry..."
                 sleep $delay
                 delay=$((delay * 2))
