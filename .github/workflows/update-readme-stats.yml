@@ -19,19 +19,19 @@ jobs:
       - name: Create assets directory
         run: mkdir -p assets/readme-stats
 
-      - name: Download stats images
-        run: |
-          # Download GitHub Stats (returns SVG)
-          curl -f -L -o assets/readme-stats/stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=radical&hide_border=true&count_private=true"
-          
-          # Download Top Languages (returns SVG)
-          curl -f -L -o assets/readme-stats/top-langs.svg \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=radical&hide_border=true"
-          
-          # Download Streak Stats (returns SVG)
-          curl -f -L -o assets/readme-stats/streak.svg \
-            "https://github-readme-streak-stats-eight.vercel.app/?user=rabrie10&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate stats images
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: rabrie10
+        run: python scripts/generate_readme_stats.py
 
       - name: Commit and push changes
         run: |

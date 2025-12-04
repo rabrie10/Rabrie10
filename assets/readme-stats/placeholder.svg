@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
   <rect width="400" height="150" fill="#1a1a2e" rx="10"/>
-  <text x="200" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="middle">Contribution data unavailable</text>
+  <text x="200" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="middle">Data unavailable</text>
   <text x="200" y="100" fill="#888888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="middle">Please try again later</text>
 </svg>
