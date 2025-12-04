@@ -35,14 +35,14 @@ jobs:
                 echo "Successfully downloaded: $output"
                 return 0
               fi
-              echo "Attempt $attempt/$max_retries failed for $output, retrying in ${delay}s..."
-              sleep "$delay"
+              if [ "$attempt" -lt "$max_retries" ]; then
+                echo "Attempt $attempt/$max_retries failed for $output, retrying in ${delay}s..."
+                sleep "$delay"
+              fi
             done
             
-            if [ ! -s "$output" ]; then
-              echo "Failed to download $url after $max_retries attempts" >&2
-              return 1
-            fi
+            echo "Failed to download $url after $max_retries attempts" >&2
+            return 1
           }
           
           # Download GitHub Stats (returns SVG)
