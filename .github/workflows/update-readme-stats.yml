@@ -21,17 +21,43 @@ jobs:
 
       - name: Download stats images
         run: |
+          # Function to download with retry logic
+          download_with_retry() {
+            local url="$1"
+            local output="$2"
+            local max_attempts=5
+            local delay=10
+            
+            for attempt in $(seq 1 $max_attempts); do
+              echo "Downloading $output (attempt $attempt of $max_attempts)..."
+              if curl -f -L --retry 3 --retry-delay 5 -o "$output" "$url"; then
+                echo "Successfully downloaded $output"
+                return 0
+              fi
+              if [ $attempt -lt $max_attempts ]; then
+                echo "Download failed, waiting ${delay}s before retry..."
+                sleep $delay
+                delay=$((delay * 2))
+              fi
+            done
+            echo "Failed to download $output after $max_attempts attempts"
+            return 1
+          }
+          
           # Download GitHub Stats (returns SVG)
-          curl -f -L -o assets/readme-stats/stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=radical&hide_border=true&count_private=true"
+          download_with_retry \
+            "https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=radical&hide_border=true&count_private=true" \
+            "assets/readme-stats/stats.svg"
           
           # Download Top Languages (returns SVG)
-          curl -f -L -o assets/readme-stats/top-langs.svg \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=radical&hide_border=true"
+          download_with_retry \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=radical&hide_border=true" \
+            "assets/readme-stats/top-langs.svg"
           
           # Download Streak Stats (returns SVG)
-          curl -f -L -o assets/readme-stats/streak.svg \
-            "https://github-readme-streak-stats-eight.vercel.app/?user=rabrie10&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
+          download_with_retry \
+            "https://github-readme-streak-stats-eight.vercel.app/?user=rabrie10&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" \
+            "assets/readme-stats/streak.svg"
 
       - name: Commit and push changes
         run: |
