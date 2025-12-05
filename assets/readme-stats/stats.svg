@@ -1,5 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
-  <rect width="400" height="150" fill="#1a1a2e" rx="10"/>
-  <text x="200" y="75" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="middle">User data unavailable</text>
-  <text x="200" y="100" fill="#888888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" dominant-baseline="middle">Please try again later</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="statsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#statsGrad)" rx="10"/>
+  <text x="25" y="35" fill="#fe428e" font-family="Arial, sans-serif" font-size="18" font-weight="bold">rabrie10's GitHub Stats</text>
+  
+  <g transform="translate(25, 60)">
+    <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">⭐</text>
+    <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Total Stars:</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">3</text>
+  </g>
+  
+  <g transform="translate(25, 95)">
+    <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">📦</text>
+    <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Public Repos:</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">9</text>
+  </g>
+  
+  <g transform="translate(25, 130)">
+    <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">👥</text>
+    <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Followers:</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">4</text>
+  </g>
 </svg>
