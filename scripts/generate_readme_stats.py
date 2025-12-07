@@ -197,14 +197,18 @@ def calculate_total_stars(repos):
     return sum(repo.get("stargazers_count", 0) for repo in repos if not repo.get("fork"))
 
 
-def fetch_contributions_calendar(username, token):
-    """Fetch contributions calendar using GraphQL."""
-    print(f"Fetching contributions calendar for {username}...")
-    
+def fetch_contributions_data(username, token):
+    """Fetch contributions calendar and contribution counts using GraphQL."""
+    print(f"Fetching contribution stats for {username}...")
+
     query = f'''
     query {{
         user(login: "{username}") {{
             contributionsCollection {{
+                totalCommitContributions
+                totalPullRequestContributions
+                totalIssueContributions
+                totalPullRequestReviewContributions
                 contributionCalendar {{
                     totalContributions
                     weeks {{
@@ -219,10 +223,17 @@ def fetch_contributions_calendar(username, token):
         }}
     }}
     '''
-    
+
     data = make_graphql_request(query, token)
     if data and "data" in data and data["data"]["user"]:
-        return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+        collection = data["data"]["user"]["contributionsCollection"]
+        return {
+            "calendar": collection.get("contributionCalendar"),
+            "commits": collection.get("totalCommitContributions", 0),
+            "pull_requests": collection.get("totalPullRequestContributions", 0),
+            "issues": collection.get("totalIssueContributions", 0),
+            "reviews": collection.get("totalPullRequestReviewContributions", 0),
+        }
     return None
 
 
@@ -239,28 +250,34 @@ def write_placeholder_svg(filepath, message="Data unavailable"):
     print(f"  Wrote placeholder to {filepath}")
 
 
-def generate_stats_svg(user_data, total_stars, output_path):
+def generate_stats_svg(user_data, total_stars, contribution_stats, output_path):
     """Generate the stats.svg file."""
     print("Generating stats.svg...")
-    
+
     if not user_data:
         write_placeholder_svg(output_path, "User data unavailable")
         return False
-    
+
     username = user_data.get("login", "Unknown")
     followers = user_data.get("followers", 0)
     public_repos = user_data.get("public_repos", 0)
-    
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+    commits = (contribution_stats or {}).get("commits", 0)
+    pull_requests = (contribution_stats or {}).get("pull_requests", 0)
+    issues = (contribution_stats or {}).get("issues", 0)
+    reviews = (contribution_stats or {}).get("reviews", 0)
+
+    height = 320
+
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="{height}" viewBox="0 0 400 {height}">
   <defs>
     <linearGradient id="statsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="400" height="200" fill="url(#statsGrad)" rx="10"/>
+  <rect width="400" height="{height}" fill="url(#statsGrad)" rx="10"/>
   <text x="25" y="35" fill="{COLORS['title']}" font-family="Arial, sans-serif" font-size="18" font-weight="bold">{username}'s GitHub Stats</text>
-  
+
   <g transform="translate(25, 60)">
     <text y="20" fill="{COLORS['icon']}" font-family="Arial, sans-serif" font-size="14">⭐</text>
     <text x="25" y="20" fill="{COLORS['text']}" font-family="Arial, sans-serif" font-size="14">Total Stars:</text>
@@ -277,6 +294,30 @@ def generate_stats_svg(user_data, total_stars, output_path):
     <text y="20" fill="{COLORS['icon']}" font-family="Arial, sans-serif" font-size="14">👥</text>
     <text x="25" y="20" fill="{COLORS['text']}" font-family="Arial, sans-serif" font-size="14">Followers:</text>
     <text x="130" y="20" fill="{COLORS['subtitle']}" font-family="Arial, sans-serif" font-size="14" font-weight="bold">{followers:,}</text>
+  </g>
+
+  <g transform="translate(25, 165)">
+    <text y="20" fill="{COLORS['icon']}" font-family="Arial, sans-serif" font-size="14">🧑‍💻</text>
+    <text x="25" y="20" fill="{COLORS['text']}" font-family="Arial, sans-serif" font-size="14">Commits (last year):</text>
+    <text x="200" y="20" fill="{COLORS['subtitle']}" font-family="Arial, sans-serif" font-size="14" font-weight="bold">{commits:,}</text>
+  </g>
+
+  <g transform="translate(25, 200)">
+    <text y="20" fill="{COLORS['icon']}" font-family="Arial, sans-serif" font-size="14">🔀</text>
+    <text x="25" y="20" fill="{COLORS['text']}" font-family="Arial, sans-serif" font-size="14">Pull Requests:</text>
+    <text x="200" y="20" fill="{COLORS['subtitle']}" font-family="Arial, sans-serif" font-size="14" font-weight="bold">{pull_requests:,}</text>
+  </g>
+
+  <g transform="translate(25, 235)">
+    <text y="20" fill="{COLORS['icon']}" font-family="Arial, sans-serif" font-size="14">❗</text>
+    <text x="25" y="20" fill="{COLORS['text']}" font-family="Arial, sans-serif" font-size="14">Issues Opened:</text>
+    <text x="200" y="20" fill="{COLORS['subtitle']}" font-family="Arial, sans-serif" font-size="14" font-weight="bold">{issues:,}</text>
+  </g>
+
+  <g transform="translate(25, 270)">
+    <text y="20" fill="{COLORS['icon']}" font-family="Arial, sans-serif" font-size="14">📝</text>
+    <text x="25" y="20" fill="{COLORS['text']}" font-family="Arial, sans-serif" font-size="14">PR Reviews:</text>
+    <text x="200" y="20" fill="{COLORS['subtitle']}" font-family="Arial, sans-serif" font-size="14" font-weight="bold">{reviews:,}</text>
   </g>
 </svg>
 '''
@@ -355,17 +396,67 @@ def get_contrib_color(count):
         return CONTRIB_COLORS[4]
 
 
+def calculate_streaks(calendar_data):
+    """Calculate current and longest contribution streaks."""
+    if not calendar_data:
+        return {"current": 0, "longest": 0, "active_days": 0}
+
+    weeks = calendar_data.get("weeks", [])
+    days = []
+
+    for week in weeks:
+        for day in week.get("contributionDays", []):
+            date_str = day.get("date")
+            count = day.get("contributionCount", 0)
+            if date_str:
+                try:
+                    date = datetime.strptime(date_str, "%Y-%m-%d")
+                    days.append((date, count > 0))
+                except ValueError:
+                    continue
+
+    if not days:
+        return {"current": 0, "longest": 0, "active_days": 0}
+
+    days.sort(key=lambda x: x[0])
+
+    longest = 0
+    current = 0
+    active_days = 0
+    prev_date = None
+    prev_active = False
+
+    for date, is_active in days:
+        if is_active:
+            active_days += 1
+
+            if prev_date and (date - prev_date).days == 1 and prev_active:
+                current += 1
+            else:
+                current = 1
+
+            longest = max(longest, current)
+        else:
+            current = 0
+
+        prev_date = date
+        prev_active = is_active
+
+    return {"current": current, "longest": longest, "active_days": active_days}
+
+
 def generate_streak_svg(calendar_data, output_path):
     """Generate the streak.svg file (contributions calendar heatmap)."""
     print("Generating streak.svg...")
-    
+
     if not calendar_data:
         write_placeholder_svg(output_path, "Contribution data unavailable")
         return False
-    
+
     weeks = calendar_data.get("weeks", [])
     total_contributions = calendar_data.get("totalContributions", 0)
-    
+    streaks = calculate_streaks(calendar_data)
+
     if not weeks:
         write_placeholder_svg(output_path, "No contribution data")
         return False
@@ -379,7 +470,7 @@ def generate_streak_svg(calendar_data, output_path):
     
     num_weeks = len(weeks)
     width = left_margin + num_weeks * cell_total + 20
-    height = top_margin + 7 * cell_total + 50  # Extra space for legend and stats
+    height = top_margin + 7 * cell_total + 70  # Extra space for legend and stats
     
     svg_parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
@@ -391,6 +482,7 @@ def generate_streak_svg(calendar_data, output_path):
         '  </defs>',
         f'  <rect width="{width}" height="{height}" fill="url(#streakGrad)" rx="10"/>',
         f'  <text x="{width/2}" y="20" fill="{COLORS["title"]}" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">{total_contributions:,} contributions in the last year</text>',
+        f'  <text x="{width/2}" y="38" fill="{COLORS["subtitle"]}" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Current streak: {streaks["current"]} days • Longest streak: {streaks["longest"]} days • Active days: {streaks["active_days"]}</text>',
     ]
     
     # Day labels (Mon, Wed, Fri)
@@ -443,6 +535,9 @@ def generate_streak_svg(calendar_data, output_path):
         svg_parts.append(f'  <rect x="{legend_x + i * 15}" y="{legend_y - 10}" width="12" height="12" fill="{color}" rx="2"/>')
     
     svg_parts.append(f'  <text x="{legend_x + 75}" y="{legend_y}" fill="#8b949e" font-family="Arial, sans-serif" font-size="10">More</text>')
+
+    summary_y = legend_y + 22
+    svg_parts.append(f'  <text x="{width/2}" y="{summary_y}" fill="{COLORS["text"]}" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">Daily contributions shown for the past year</text>')
     
     svg_parts.append('</svg>')
     
@@ -481,13 +576,15 @@ def main():
         user_data = fetch_user_data(username, token)
         repos = fetch_repos(username, token) or []
         total_stars = calculate_total_stars(repos)
-        
-        if generate_stats_svg(user_data, total_stars, stats_path):
+
+        contribution_stats = fetch_contributions_data(username, token)
+
+        if generate_stats_svg(user_data, total_stars, contribution_stats, stats_path):
             success_count += 1
     except Exception as e:
         print(f"Error generating stats.svg: {e}")
         write_placeholder_svg(stats_path, "Stats unavailable")
-    
+
     # Fetch and generate language stats
     try:
         if repos:
@@ -504,7 +601,10 @@ def main():
     
     # Fetch and generate contributions calendar
     try:
-        calendar_data = fetch_contributions_calendar(username, token)
+        if 'contribution_stats' not in locals():
+            contribution_stats = fetch_contributions_data(username, token)
+
+        calendar_data = (contribution_stats or {}).get("calendar")
         if generate_streak_svg(calendar_data, streak_path):
             success_count += 1
     except Exception as e:
