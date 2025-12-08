@@ -11,42 +11,42 @@
   <g transform="translate(25, 60)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">⭐</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Total Stars:</text>
-    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">0</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">3</text>
   </g>
   
   <g transform="translate(25, 95)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">📦</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Public Repos:</text>
-    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">10</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">9</text>
   </g>
   
   <g transform="translate(25, 130)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">👥</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Followers:</text>
-    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">5</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">4</text>
   </g>
 
   <g transform="translate(25, 165)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">🧑‍💻</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Commits (last year):</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">120</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">166</text>
   </g>
 
   <g transform="translate(25, 200)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">🔀</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Pull Requests:</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">24</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">7</text>
   </g>
 
   <g transform="translate(25, 235)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">❗</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Issues Opened:</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">14</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">30</text>
   </g>
 
   <g transform="translate(25, 270)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">📝</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">PR Reviews:</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">18</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">8</text>
   </g>
 </svg>
