@@ -14,19 +14,14 @@
 
 ## 🧠 Technologies & Tools
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&width=435&lines=💡+AI+%26+Machine+Learning;🧩+Simulation+%26+Automation;⚙️+Full-lopment;🚀+Continuous+Innovation
-</p>
-
-<hr/>
-
 <p align="center"><strong>🛠️ Tools I've Used</strong></p>
 
 <p align="center">
   <!-- Languages -->
-  https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" titlenet/gh/devicons/devicon/icons/matlab/matlab-original.svg/cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svgc="https://cdn.jsdelivr.net/gh/devcon/icons/typescript/typescript-original.svg  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="48" height="atest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="48" height="48" style="matlab-original.svg" alt="MATLAB" title="MATLAB / Simulink" width="48" height="48" style="margin:6al.svg" alt="HTMLcdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="48" height="48" style/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="48" height="48"et/gh/devicons/devicon@latest/iconsw/tensorflow-original.svg
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="48" height="48" style="margin:6rn/scikitlearn-original.svg" alt="Scikit-learn" title="Scikit-learn" width="48" height="48"ct/react-original.svg" alt="React" title="React" width="48" height="48" style="margin:6/keras-original.svg" alt="Keras" title="Keras" widthia jsDelivr -->
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastapi.svg" alt="FastAPI" title="FastAPI" width="48" height="48" style="margin:6px; filter: invert(50%) sepia(58%) saturate(394%) hue-rotate(118deg) brightness(92%) contrast(89%.svg"="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" titlevr.net/gh/devicons/devicon@latest/icons/pandas/pinal.svg
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy" width="48" height="48" style="margin:x/linux-original.svg" alt="Linux" title="Linux
 
   <!-- Frameworks & Libraries -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow" width="48" height="48" style="margin:6px.svg" alt="PyTorch" title="PyTorch" width="48" height="48" stylelearn/scikitlearn-original.svg" alt="Scikit-learn" title="Scikit-learn" width="48"s/fastapi.svg" alt="FastAPI" title="FastAPI" width="48" height="48" style="al.svg
