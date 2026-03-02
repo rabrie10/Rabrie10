@@ -69,7 +69,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/robel-ghebremedhin-57669ed" target="_blank">LinkedIn</a>
   &nbsp;•&nbsp;
-  <a href="mailto:weld@gmail.com">Email</a>
+  <a href="mailto:weldemichaelr@gmail.com">Email</a>
   &nbsp;•&nbsp;
   <a href="https://github.com/rabrie10" target="_blank">GitHub</a>
 </p>
