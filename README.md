@@ -1,91 +1,66 @@
-<!-- 🌟 Header -->
-<h1 align="center">Hi there 👋 I'm Robel</h1>
+# Hey, I'm Robel 👋
 
-<p align="center">
-  🎓 Master's student in Applied Artificial Intelligence <br/>
-  ⚡ Building AI-driven systems for real-world impact <br/>
-  🧠 Interested in simulation, optimization, and intelligent automation
-</p>
+I'm a Master's student in Applied AI — but honestly, I'm just someone who gets unreasonably excited about building things that actually work in the real world, not just in Jupyter notebooks.
 
-<!-- Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
+My sweet spot is somewhere between **AI systems**, **infrastructure**, and **automation** — the kind of engineering where decisions have real consequences and "it works on my machine" doesn't cut it.
 
 ---
 
-## 🚀 About Me
+## What I've been building lately
 
-I’m passionate about building **intelligent systems that solve real-world problems** — especially at the intersection of:
+**🥇 Won KPMG x ServiceNow Hackathon (2026)**
+Built a multi-agent onboarding system that automates the whole new-hire workflow — Microsoft 365 account setup, SAP role assignment, training flows in ServiceNow and Notion. The kind of thing that saves an IT department hours every time someone joins. We came first.
 
-- 🤖 AI & Machine Learning  
-- ⚙️ System Design & Simulation  
-- ⚡ Energy, Optimization & Control Systems  
+**⚡ Smart Datacenter Monitoring**
+Simulated IoT rack environments streaming power and thermal data over MQTT into InfluxDB. FastAPI backend handling ingestion and alerting. Less glamorous than LLMs, more satisfying when it actually runs.
 
-Recently, I’ve been working on:
-- 🏢 AI-powered onboarding automation (multi-agent systems)
-- ⚡ Smart datacenter monitoring using IoT + time-series data
-- 🧠 Multimodal AI models for hate speech detection  
+**🧠 Multimodal Hate Speech Detection**
+CLIP-based model working across image and text. The hard part wasn't the model — it was class imbalance. Ended up deep in custom loss functions and macro F1 tuning. Learned more about real ML engineering than any course taught me.
 
----
-
-## 🏆 Highlight
-
-🥇 **1st Place – KPMG x ServiceNow Hackathon (2026)**  
-Built a **multi-agent AI onboarding system** that automates:
-- Account creation (Microsoft 365)
-- Role assignment (SAP)
-- Training & onboarding flows (ServiceNow + Notion)
+**🤖 Personal Trainer AI Agent**
+Adaptive workout planning agent that tracks progress and enforces safety constraints. Built this partly as a practical tool, partly to understand what makes AI agents actually usable vs. just impressive in demos.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech I work with
 
-<p align="center">
-  <!-- Languages -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="48" />
+**Languages**
+Python · JavaScript · TypeScript · MATLAB
 
-  <!-- AI -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="48" />
+**AI / ML**
+PyTorch · TensorFlow · scikit-learn · CLIP · Hugging Face Transformers
 
-  <!-- Backend -->
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fastapi.svg" width="48" />
+**Data & Infra**
+InfluxDB · MQTT · PostgreSQL · Redis
 
-  <!-- Frontend -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" />
+**Backend & APIs**
+FastAPI · REST · ServiceNow
 
-  <!-- Tools -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" />
-</p>
+**Frontend**
+React · Tailwind CSS
+
+**DevOps & Tools**
+Git · Linux · Docker · Jupyter
 
 ---
 
-## 🧩 Featured Projects
+## What I'm into right now
 
-### ⚡ Smart Datacenter IoT System
-- Real-time monitoring using MQTT + InfluxDB  
-- Simulated IoT racks with power & thermal data  
-- FastAPI backend for ingestion & alerts  
-
-### 🧠 Multimodal Hate Speech Detection
-- CLIP-based model (image + text)  
-- Tackled **class imbalance** using advanced loss functions  
-- Evaluated with macro F1 & hateful-class F1  
-
-### 🤖 Personal Trainer AI Agent
-- Adaptive workout planning system  
-- Tracks progress, generates plans, and enforces safety rules  
-- Focus on **real-world usability + product design**
+I've been thinking a lot about **AI agents that are actually reliable** — not just capable in controlled conditions, but robust enough to run unsupervised in production. Also digging into time-series forecasting and intelligent energy systems, which is where my thesis is heading.
 
 ---
 
-## 📊 GitHub Stats
+## A bit more context
+
+I came into AI from an engineering background, which means I tend to care a lot about system design, constraints, and whether something would survive contact with real-world data. I'm early in my Master's but I've been building things outside of coursework since before I started.
+
+If you want to talk about multi-agent systems, IoT pipelines, or anything at the edge of AI and infrastructure — I'm always up for it.
+
+---
+
+📫 [LinkedIn](https://www.linkedin.com/in/robel-ghebremedhin-57669ed) · [Email](mailto:weldemichaelr@gmail.com) · [GitHub](https://github.com/rabrie10)
+
+---
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rabrie10&theme=tokyonight" width="90%" />
@@ -98,30 +73,4 @@ Built a **multi-agent AI onboarding system** that automates:
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=rabrie10&theme=transparent&hide_border=true" height="170" />
-</p>
-
----
-
-## 🧠 Currently Exploring
-
-- 🚀 AI Agents & Automation Systems  
-- 📊 Time-series forecasting & optimization  
-- ⚡ Intelligent energy systems  
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=00F5A0&center=true&vCenter=true&width=700&lines=Building+AI+Systems+That+Actually+Matter;From+Simulation+→+Real+World;Always+Learning+%26+Improving" />
-</p>
-
----
-
-## 📫 Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/robel-ghebremedhin-57669ed">LinkedIn</a>
-  &nbsp;•&nbsp;
-  <a href="mailto:weldemichaelr@gmail.com">Email</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/rabrie10">GitHub</a>
 </p>
