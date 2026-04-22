@@ -1,4 +1,4 @@
-# Hey, I'm Robel 👋
+# Hi, I'm Robel 👋
 
 I'm a Master's student in Applied AI — but honestly, I'm just someone who gets unreasonably excited about building things that actually work in the real world, not just in Jupyter notebooks.
 
