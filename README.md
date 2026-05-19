@@ -63,14 +63,13 @@ If you want to talk about multi-agent systems, IoT pipelines, or anything at the
 ---
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rabrie10&theme=tokyonight" width="90%" />
+  <img src="./assets/readme-stats/stats.svg" width="90%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rabrie10&theme=tokyonight" height="170" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rabrie10&theme=tokyonight" height="170" />
+  <img src="./assets/readme-stats/top-langs.svg" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rabrie10&theme=transparent&hide_border=true" height="170" />
+  <img src="./assets/readme-stats/streak.svg" height="170" />
 </p>
