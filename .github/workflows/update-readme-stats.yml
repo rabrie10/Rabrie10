@@ -37,13 +37,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          git checkout $BRANCH_NAME
           git add assets/readme-stats/
-          
           # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update README stats images"
-            git push
+            git push origin $BRANCH_NAME
           fi
