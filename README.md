@@ -70,6 +70,4 @@ If you want to talk about multi-agent systems, IoT pipelines, or anything at the
   <img src="./assets/readme-stats/top-langs.svg" height="170" />
 </p>
 
-<p align="center">
-  <img src="./assets/readme-stats/streak.svg" height="170" />
-</p>
+
