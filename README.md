@@ -1,4 +1,4 @@
-# Hi, I'm Robel 👋
+# Hi, I'm Robel 
 
 I'm a Master's student in Applied AI  but honestly, I'm just someone who gets unreasonably excited about building things that actually work in the real world, not just in Jupyter notebooks.
 
@@ -8,16 +8,16 @@ My sweet spot is somewhere between **AI systems**, **infrastructure**, and **aut
 
 ## What I've been building lately
 
-**🥇 Won KPMG x ServiceNow Hackathon (2026)**
+**Won KPMG x ServiceNow Hackathon (2026)**
 Built a multi-agent onboarding system that automates the whole new-hire workflow Microsoft 365 account setup, SAP role assignment, training flows in ServiceNow and Notion. The kind of thing that saves an IT department hours every time someone joins. We came first.
 
-**⚡ Smart Datacenter Monitoring**
+**Smart Datacenter Monitoring**
 Simulated IoT rack environments streaming power and thermal data over MQTT into InfluxDB. FastAPI backend handling ingestion and alerting. Less glamorous than LLMs, more satisfying when it actually runs.
 
-**🧠 Multimodal Hate Speech Detection**
+**Multimodal Hate Speech Detection**
 CLIP-based model working across image and text. The hard part wasn't the model  it was class imbalance. Ended up deep in custom loss functions and macro F1 tuning. Learned more about real ML engineering than any course taught me.
 
-**🤖 Personal Trainer AI Agent**
+**Personal Trainer AI Agent**
 Adaptive workout planning agent that tracks progress and enforces safety constraints. Built this partly as a practical tool, partly to understand what makes AI agents actually usable vs. just impressive in demos.
 
 ---
