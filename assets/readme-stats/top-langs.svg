@@ -10,43 +10,43 @@
   <g transform="translate(25, 45)">
     <circle cx="8" cy="10" r="6" fill="#DA5B0B"/>
     <text x="22" y="14" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">Jupyter Notebook</text>
-    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">71.9%</text>
+    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">73.3%</text>
     <rect x="0" y="20" width="300" height="8" fill="#2d2d44" rx="4"/>
-    <rect x="0" y="20" width="215.6277028687965" height="8" fill="#DA5B0B" rx="4"/>
+    <rect x="0" y="20" width="220.02211896443833" height="8" fill="#DA5B0B" rx="4"/>
   </g>
   <g transform="translate(25, 80)">
     <circle cx="8" cy="10" r="6" fill="#3572A5"/>
     <text x="22" y="14" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">Python</text>
-    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">17.2%</text>
+    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">19.8%</text>
     <rect x="0" y="20" width="300" height="8" fill="#2d2d44" rx="4"/>
-    <rect x="0" y="20" width="51.50968463058196" height="8" fill="#3572A5" rx="4"/>
+    <rect x="0" y="20" width="59.274927403764494" height="8" fill="#3572A5" rx="4"/>
   </g>
   <g transform="translate(25, 115)">
     <circle cx="8" cy="10" r="6" fill="#858585"/>
     <text x="22" y="14" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">TeX</text>
-    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">8.1%</text>
+    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">5.1%</text>
     <rect x="0" y="20" width="300" height="8" fill="#2d2d44" rx="4"/>
-    <rect x="0" y="20" width="24.413308952216603" height="8" fill="#858585" rx="4"/>
+    <rect x="0" y="20" width="15.380018957011412" height="8" fill="#858585" rx="4"/>
   </g>
   <g transform="translate(25, 150)">
     <circle cx="8" cy="10" r="6" fill="#f1e05a"/>
     <text x="22" y="14" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">JavaScript</text>
-    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">1.3%</text>
+    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">0.8%</text>
     <rect x="0" y="20" width="300" height="8" fill="#2d2d44" rx="4"/>
-    <rect x="0" y="20" width="3.8515814693241244" height="8" fill="#f1e05a" rx="4"/>
+    <rect x="0" y="20" width="2.4264386334774355" height="8" fill="#f1e05a" rx="4"/>
   </g>
   <g transform="translate(25, 185)">
     <circle cx="8" cy="10" r="6" fill="#2b7489"/>
     <text x="22" y="14" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">TypeScript</text>
-    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">1.0%</text>
+    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">0.6%</text>
     <rect x="0" y="20" width="300" height="8" fill="#2d2d44" rx="4"/>
-    <rect x="0" y="20" width="2.937359625907201" height="8" fill="#2b7489" rx="4"/>
+    <rect x="0" y="20" width="1.8504925661013634" height="8" fill="#2b7489" rx="4"/>
   </g>
   <g transform="translate(25, 220)">
     <circle cx="8" cy="10" r="6" fill="#e34c26"/>
     <text x="22" y="14" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">HTML</text>
-    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">0.6%</text>
+    <text x="350" y="14" fill="#a9fef7" font-family="Arial, sans-serif" font-size="12" text-anchor="end">0.3%</text>
     <rect x="0" y="20" width="300" height="8" fill="#2d2d44" rx="4"/>
-    <rect x="0" y="20" width="1.6603624531736187" height="8" fill="#e34c26" rx="4"/>
+    <rect x="0" y="20" width="1.0460034752069791" height="8" fill="#e34c26" rx="4"/>
   </g>
 </svg>

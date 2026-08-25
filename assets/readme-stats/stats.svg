@@ -17,7 +17,7 @@
   <g transform="translate(25, 95)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">📦</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Public Repos:</text>
-    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">8</text>
+    <text x="130" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">9</text>
   </g>
   
   <g transform="translate(25, 130)">
@@ -29,13 +29,13 @@
   <g transform="translate(25, 165)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">🧑‍💻</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Commits (last year):</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">309</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">337</text>
   </g>
 
   <g transform="translate(25, 200)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">🔀</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Pull Requests:</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">16</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">18</text>
   </g>
 
   <g transform="translate(25, 235)">
@@ -47,6 +47,6 @@
   <g transform="translate(25, 270)">
     <text y="20" fill="#f8d847" font-family="Arial, sans-serif" font-size="14">📝</text>
     <text x="25" y="20" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">PR Reviews:</text>
-    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">16</text>
+    <text x="200" y="20" fill="#a9fef7" font-family="Arial, sans-serif" font-size="14" font-weight="bold">17</text>
   </g>
 </svg>
