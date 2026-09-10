@@ -62,13 +62,6 @@ If you want to talk about multi-agent systems, IoT pipelines, or anything at the
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=transparent&hide_border=true" width="90%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=transparent&hide_border=true" height="170" />
-</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rabrie10&theme=transparent&hide_border=true" />
