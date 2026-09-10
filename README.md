@@ -63,14 +63,13 @@ If you want to talk about multi-agent systems, IoT pipelines, or anything at the
 ---
 
 <p align="center">
-  <img src="./assets/readme-stats/stats.svg" width="90%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rabrie10&show_icons=true&theme=transparent&hide_border=true" width="90%" />
 </p>
 
 <p align="center">
-  <img src="./assets/readme-stats/top-langs.svg" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabrie10&layout=compact&theme=transparent&hide_border=true" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://camo.githubusercontent.com/6f067929e9671d9175e40a2699cb26b4888050fbbf3af070684abe96a885dcdb/68747470733a2f2f6769746875622d726561646d652d73746174732d6d33346e2e76657263656c2e6170702f6170693f757365726e616d653d7368697761343635362673686f775f69636f6e733d7472756526696e636c7564655f616c6c5f636f6d6d6974733d7472756526636f756e745f707269766174653d74727565267468656d653d746f6b796f6e6967687426686964655f626f726465723d74727565" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rabrie10&theme=transparent&hide_border=true" />
 </p>
-
