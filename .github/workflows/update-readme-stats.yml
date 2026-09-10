@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Create assets directory
         run: mkdir -p assets/readme-stats
@@ -37,8 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
-          git checkout $BRANCH_NAME
+          BRANCH_NAME="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git add assets/readme-stats/
           # Check if there are changes to commit
           if git diff --cached --quiet; then
