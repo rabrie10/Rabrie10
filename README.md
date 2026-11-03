@@ -1,68 +1,66 @@
-# Hi, I'm Robel 
+<div align="center">
 
-I'm a Master's student in Applied AI  but honestly, I'm just someone who gets unreasonably excited about building things that actually work in the real world, not just in Jupyter notebooks.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=1000&color=78DCD0&center=true&vCenter=true&width=850&height=54&lines=Hi%2C+I'm+Robel;AI+systems+%7C+Agents+%7C+Infrastructure+%7C+Automation;Building+things+that+work+outside+the+notebook">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=1000&color=117D89&center=true&vCenter=true&width=850&height=54&lines=Hi%2C+I'm+Robel;AI+systems+%7C+Agents+%7C+Infrastructure+%7C+Automation;Building+things+that+work+outside+the+notebook" width="100%" alt="Animated typing: AI systems, agents, infrastructure, automation.">
+</picture>
 
-My sweet spot is somewhere between **AI systems**, **infrastructure**, and **automation**  the kind of engineering where decisions have real consequences and "it works on my machine" doesn't cut it.
+[**Projects**](#things-ive-built) · [**Right now**](#on-the-workbench) · [**How I think**](#how-i-think) · [**Contact**](#lets-connect)
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robel-ghebremedhin-57669ed)
+[![Email](https://img.shields.io/badge/Email-Say_hello-167d89?style=flat-square&logo=gmail&logoColor=white)](mailto:weldemichaelr@gmail.com)
 
-## What I've been building lately
+</div>
 
-**Won KPMG x ServiceNow Hackathon (2026)**
-Built a multi-agent onboarding system that automates the whole new-hire workflow Microsoft 365 account setup, SAP role assignment, training flows in ServiceNow and Notion. The kind of thing that saves an IT department hours every time someone joins. We came first.
+## Hi, I'm Robel
 
-**Smart Datacenter Monitoring**
-Simulated IoT rack environments streaming power and thermal data over MQTT into InfluxDB. FastAPI backend handling ingestion and alerting. Less glamorous than LLMs, more satisfying when it actually runs.
+**I build AI systems that have to work in the real world, not just in Jupyter notebooks.**
 
-**Multimodal Hate Speech Detection**
-CLIP-based model working across image and text. The hard part wasn't the model  it was class imbalance. Ended up deep in custom loss functions and macro F1 tuning. Learned more about real ML engineering than any course taught me.
+I'm a first-year M.Sc. student in **Applied AI**, working somewhere between **AI systems**, **infrastructure** and **automation**: the kind of engineering where decisions have consequences and "it works on my machine" doesn't cut it.
 
-**Personal Trainer AI Agent**
-Adaptive workout planning agent that tracks progress and enforces safety constraints. Built this partly as a practical tool, partly to understand what makes AI agents actually usable vs. just impressive in demos.
+I came into AI from an engineering background, so I care about system design, constraints, and whether something survives contact with real data.
 
----
+## Things I've built
 
-## Tech I work with
+| Project | What made it interesting |
+|---|---|
+| **Multi-agent onboarding system** · *KPMG x ServiceNow Hackathon 2026, 1st place* | Automates the full new-hire workflow: Microsoft 365 account setup, SAP role assignment, and training flows in ServiceNow and Notion. Saves an IT department hours every time someone joins. |
+| **Smart Datacenter Monitoring** · *IoT & backend* | Simulated rack environments stream power and thermal data over MQTT into InfluxDB. A FastAPI backend handles ingestion and alerting. |
+| **Multimodal Hate Speech Detection** · *CLIP, image + text* | The hard part wasn't the model, it was class imbalance. Ended up in custom loss functions and macro-F1 tuning. |
+| **Personal Trainer AI Agent** · *Agents with constraints* | Adaptive workout planning that tracks progress and enforces safety constraints. Built to learn what makes an agent usable, not just impressive in a demo. |
 
-**Languages**
-Python · JavaScript · TypeScript · MATLAB
+<!-- TODO: link each project to its repo / demo, e.g. **[Name](https://github.com/rabrie10/repo)** -->
 
-**AI / ML**
-PyTorch · TensorFlow · scikit-learn · CLIP · Hugging Face Transformers
+## On the workbench
 
-**Data & Infra**
-InfluxDB · MQTT · PostgreSQL · Redis
+- **Reliable AI agents:** agents that are robust enough to run unsupervised in production, not just capable under controlled conditions.
+- **Time-series forecasting & intelligent energy systems:** the direction my thesis is heading.
 
-**Backend & APIs**
-FastAPI · REST · ServiceNow
+## How I think
 
-**Frontend**
-React · Tailwind CSS
+I care about the full loop: data and signals → model → evaluation → a decision someone actually acts on. A good metric only matters if the system around it holds up when the data gets messy.
 
-**DevOps & Tools**
-Git · Linux · Docker · Jupyter
+<details>
+<summary><strong>Tech I work with</strong></summary>
 
----
+<br/>
 
-## What I'm into right now
+**Languages:** Python · JavaScript · TypeScript · MATLAB
 
-I've been thinking a lot about **AI agents that are actually reliable** not just capable in controlled conditions, but robust enough to run unsupervised in production. Also digging into time-series forecasting and intelligent energy systems, which is where my thesis is heading.
+**AI / ML:** PyTorch · TensorFlow · scikit-learn · CLIP · Hugging Face Transformers
 
----
+**Data & infra:** InfluxDB · MQTT · PostgreSQL · Redis
 
-## A bit more context
+**Backend & APIs:** FastAPI · REST · ServiceNow
 
-I came into AI from an engineering background, which means I tend to care a lot about system design, constraints, and whether something would survive contact with real-world data. I'm early in my Master's but I've been building things outside of coursework since before I started.
+**Frontend:** React · Tailwind CSS
 
-If you want to talk about multi-agent systems, IoT pipelines, or anything at the edge of AI and infrastructure  I'm always up for it.
+**DevOps & tools:** Git · Linux · Docker · Jupyter
 
----
+</details>
 
-📫 [LinkedIn](https://www.linkedin.com/in/robel-ghebremedhin-57669ed) · [Email](mailto:weldemichaelr@gmail.com) · [GitHub](https://github.com/rabrie10)
+## Let's connect
 
----
+If you want to talk about multi-agent systems, IoT pipelines, or anything at the edge of AI and infrastructure, I'm always up for it.
 
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rabrie10&theme=transparent&hide_border=true" />
-</p>
+**[LinkedIn](https://www.linkedin.com/in/robel-ghebremedhin-57669ed)** · **[Email](mailto:weldemichaelr@gmail.com)** · **[GitHub](https://github.com/rabrie10)**
