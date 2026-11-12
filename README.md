@@ -16,7 +16,7 @@
 
 **I build AI systems that have to work in the real world, not just in Jupyter notebooks.**
 
-I'm a first-year M.Sc. student in **Applied AI**, working somewhere between **AI systems**, **infrastructure** and **automation**: the kind of engineering where decisions have consequences and "it works on my machine" doesn't cut it.
+I'm a second-year M.Sc. student in **Applied AI**, working somewhere between **AI systems**, **infrastructure** and **automation**: the kind of engineering where decisions have consequences and "it works on my machine" doesn't cut it.
 
 I came into AI from an engineering background, so I care about system design, constraints, and whether something survives contact with real data.
 
